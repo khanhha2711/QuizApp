@@ -1,0 +1,95 @@
+/* src/components/Result.css */
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.result-container {
+  margin: 40px auto;
+  width: 50vw;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.result-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #051163;
+  margin-top: -10px;
+}
+
+.score-title{
+  text-align: center;
+  color: #555;
+  margin-bottom: -10px;
+}
+.result-score {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.result-message{
+  text-align: center;
+}
+.time-title{
+  text-align: center;
+  color: #555;
+  margin-bottom: -10px;
+}
+.time-spent{
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.exit-icon{
+    border: none;
+    background-color: white;
+    color: #555;
+    size: 24px;
+}
+.result-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn.replay {
+  background-color: #2196f3;
+}
+.btn.replay:hover {
+  background-color: #1976d2;
+}
+
+.btn.check {
+  background-color: #4caf50;
+}
+.btn.check:hover {
+  background-color: #388e3c;
+}
+
+.btn.exit {
+  background-color: #f44336;
+}
+.btn.exit:hover {
+  background-color: #d32f2f;
+}
